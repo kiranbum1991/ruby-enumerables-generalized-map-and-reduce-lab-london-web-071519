@@ -8,4 +8,4 @@ def map_to_negativize(source_array)
   end
   return new
 end
-map_to_negativize (map([1, 2, 3, -9]){|n| n * -1})
+map_to_negativize{(map([1, 2, 3, -9]){|n| n * -1})}
