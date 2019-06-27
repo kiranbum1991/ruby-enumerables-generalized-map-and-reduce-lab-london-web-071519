@@ -1,5 +1,5 @@
 # Your Code Here
-def map_to_negativize(source_array)
+def map_to_negativize(source_array) do
   new = []
   i = 0
   while i < source_array.length do
@@ -8,4 +8,4 @@ def map_to_negativize(source_array)
   end
   return new
 end
-map_to_negativize{(map([1, 2, 3, -9]){|n| n * -1})}
+end
